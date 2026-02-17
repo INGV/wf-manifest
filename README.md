@@ -83,8 +83,7 @@ PID-LAND _special-pid_ like wf-search and wf-select in **RO-Crate / manifest for
 
 Notes
 
-The schema is designed to link with wf-handle and wf-provenance outputs.
+The schema is designed to link with [WF Handle](https://github.com/INGV/wf-handle) and [WF Provenance](https://github.com/INGV/wf-provenance)  outputs.
 
-Use RO-Crate tools to validate manifests against the schema.
-
-SHACL is optional but recommended for RDF-level integrity checks.
+Together they implement a [PID-centric](https://github.com/INGV/pid-land), [information-centric](https://github.com/INGV/rum-framework) metadata model
+supporting FAIR data management, reproducible science, and long-term preservation.
