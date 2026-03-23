@@ -1,3 +1,4 @@
+
 {
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
@@ -13,31 +14,60 @@
       "@type": "Dataset",
       "name": "INGV mSEED Waveform Collection",
       "description": "Collection of seismic waveform data",
+      "dateCreated": "2026-03-22T10:50:52.478856Z",
+      "dc:identifier": "https://hdl.handle.net//11099/wf-search?urlappend=?q=/lat/40.7867/lon/15.9427/rad/10/start/2024-04-09/end/2024-04-10/asof/2025-01-01",
       "publisher": {
         "@type": "Organization",
         "name": "INGV EIDA NODE"
       },
       "hasPart": [
         {
-          "@id": "https://hdl.handle.net/11099/b94112fe-f58b-11ee-9e01-0242ac12000f"
+          "@id": "https://hdl.handle.net/11099/cadaac1a-f652-11ee-8a8f-0242ac120009?urlappend=?q=version=0"
         },
         {
-          "@id": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017"
+          "@id": "https://hdl.handle.net/11099/caf9947c-f652-11ee-bc92-0242ac120014?urlappend=?q=version=0"
         },
         {
-          "@id": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009"
+          "@id": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/c597b220-f652-11ee-8435-0242ac120012?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/c5fc2da4-f652-11ee-b812-0242ac120018?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/c51f1cf2-f652-11ee-8964-0242ac120011?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/cd90419a-f71f-11ee-931a-0242ac120017?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/ce4aa292-f71f-11ee-9d2d-0242ac12001b?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/be9b7af6-f71f-11ee-aae9-0242ac120004?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/c049e7ac-f71f-11ee-a82d-0242ac120016?urlappend=?q=version=0"
+        },
+        {
+          "@id": "https://hdl.handle.net/11099/bf418bbc-f71f-11ee-b9f0-0242ac12000f?urlappend=?q=version=0"
         }
       ]
     },
     {
-      "@id": "https://hdl.handle.net/11099/b94112fe-f58b-11ee-9e01-0242ac12000f",
+      "@id": "https://hdl.handle.net/11099/cadaac1a-f652-11ee-8a8f-0242ac120009?urlappend=?q=version=0",
       "@type": "MediaObject",
-      "name": "IV.ACER..HNE.D.2024.098",
+      "name": "IV.ACER..HNZ.D.2024.099",
       "encodingFormat": "application/vnd.fdsn.mseed",
       "temporalCoverage": {
         "@type": "PeriodOfTime",
-        "startDate": "2024-04-07T00:00:00.980000Z",
-        "endDate": "2024-04-08T00:00:01.445000Z"
+        "startDate": "2024-04-08T12:03:55.325000Z",
+        "endDate": "2024-04-09T00:00:00.355000Z"
       },
       "spatialCoverage": {
         "@type": "Place",
@@ -49,11 +79,34 @@
         }
       },
       "license": "open access",
-      "provenance": "http://hdl.handle.net/11099/b94112fe-f58b-11ee-9e01-0242ac12000f?urlappend=?q=provenance",
-      "metadata": "http://hdl.handle.net/11099/b94112fe-f58b-11ee-9e01-0242ac12000f?urlappend=?q=metadata"
+      "provenance": "https://hdl.handle.net/11099/cadaac1a-f652-11ee-8a8f-0242ac120009?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/cadaac1a-f652-11ee-8a8f-0242ac120009?urlappend=?q=metadata"
     },
     {
-      "@id": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017",
+      "@id": "https://hdl.handle.net/11099/caf9947c-f652-11ee-bc92-0242ac120014?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HNN.D.2024.099",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-08T12:03:55.325000Z",
+        "endDate": "2024-04-09T00:00:00.735000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/caf9947c-f652-11ee-bc92-0242ac120014?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/caf9947c-f652-11ee-bc92-0242ac120014?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=version=0",
       "@type": "MediaObject",
       "name": "IV.ACER..HNE.D.2024.099",
       "encodingFormat": "application/vnd.fdsn.mseed",
@@ -72,11 +125,126 @@
         }
       },
       "license": "open access",
-      "provenance": "http://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=provenance",
-      "metadata": "http://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=metadata"
+      "provenance": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/cbea48cc-f652-11ee-b7b6-0242ac120017?urlappend=?q=metadata"
     },
     {
-      "@id": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009",
+      "@id": "https://hdl.handle.net/11099/c597b220-f652-11ee-8435-0242ac120012?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHE.D.2024.099",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-08T12:03:55.630000Z",
+        "endDate": "2024-04-09T00:00:01.200000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/c597b220-f652-11ee-8435-0242ac120012?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/c597b220-f652-11ee-8435-0242ac120012?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/c5fc2da4-f652-11ee-b812-0242ac120018?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHZ.D.2024.099",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-08T12:03:55.630000Z",
+        "endDate": "2024-04-09T00:00:01.260000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/c5fc2da4-f652-11ee-b812-0242ac120018?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/c5fc2da4-f652-11ee-b812-0242ac120018?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/c51f1cf2-f652-11ee-8964-0242ac120011?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHN.D.2024.099",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-08T12:03:55.630000Z",
+        "endDate": "2024-04-09T00:00:01.540000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/c51f1cf2-f652-11ee-8964-0242ac120011?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/c51f1cf2-f652-11ee-8964-0242ac120011?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/cd90419a-f71f-11ee-931a-0242ac120017?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HNZ.D.2024.100",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-09T10:39:40.365000Z",
+        "endDate": "2024-04-10T00:00:00.305000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/cd90419a-f71f-11ee-931a-0242ac120017?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/cd90419a-f71f-11ee-931a-0242ac120017?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/ce4aa292-f71f-11ee-9d2d-0242ac12001b?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HNN.D.2024.100",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-09T10:39:40.365000Z",
+        "endDate": "2024-04-10T00:00:00.485000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/ce4aa292-f71f-11ee-9d2d-0242ac12001b?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/ce4aa292-f71f-11ee-9d2d-0242ac12001b?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=version=0",
       "@type": "MediaObject",
       "name": "IV.ACER..HNE.D.2024.100",
       "encodingFormat": "application/vnd.fdsn.mseed",
@@ -95,8 +263,77 @@
         }
       },
       "license": "open access",
-      "provenance": "http://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=provenance",
-      "metadata": "http://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=metadata"
+      "provenance": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/ce8b8924-f71f-11ee-b344-0242ac120009?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/be9b7af6-f71f-11ee-aae9-0242ac120004?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHN.D.2024.100",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-09T10:39:40.670000Z",
+        "endDate": "2024-04-10T00:00:00.560000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/be9b7af6-f71f-11ee-aae9-0242ac120004?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/be9b7af6-f71f-11ee-aae9-0242ac120004?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/c049e7ac-f71f-11ee-a82d-0242ac120016?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHZ.D.2024.100",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-09T10:39:40.670000Z",
+        "endDate": "2024-04-10T00:00:00.840000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/c049e7ac-f71f-11ee-a82d-0242ac120016?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/c049e7ac-f71f-11ee-a82d-0242ac120016?urlappend=?q=metadata"
+    },
+    {
+      "@id": "https://hdl.handle.net/11099/bf418bbc-f71f-11ee-b9f0-0242ac12000f?urlappend=?q=version=0",
+      "@type": "MediaObject",
+      "name": "IV.ACER..HHE.D.2024.100",
+      "encodingFormat": "application/vnd.fdsn.mseed",
+      "temporalCoverage": {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-04-09T10:39:40.670000Z",
+        "endDate": "2024-04-10T00:00:02.920000Z"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7867,
+          "longitude": 15.9427,
+          "elevation": 690.0
+        }
+      },
+      "license": "open access",
+      "provenance": "https://hdl.handle.net/11099/bf418bbc-f71f-11ee-b9f0-0242ac12000f?urlappend=?q=provenance",
+      "metadata": "https://hdl.handle.net/11099/bf418bbc-f71f-11ee-b9f0-0242ac12000f?urlappend=?q=metadata"
     }
   ]
 }
